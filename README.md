@@ -9,5 +9,8 @@ The core scripts are in four groups:
 * `2_experiment_runners` contains the base python scripts and slurm scripts for running each family of experiments. A family consists of the base classification framework -- transformers (distil-roBERTa) vs traditional/sklearn (SVM) and the modelling approach -- supervised "passive" learning over the full dataset (SL) vs active learning in iterations (AL).
 * `3_submit_jobs` contains the scripts to create a parameter grid of all the possible experimental runs and launch them on a server.
 
+
+We ran all our experiments on the JADE 2 Cluster using the `environment.yaml` conda enviroment provided.
+
 For more information, feel free to contact me: hannah.kirk@oii.ox.ac.uk. 
 
